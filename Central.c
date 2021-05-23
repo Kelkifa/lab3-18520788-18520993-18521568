@@ -21,7 +21,7 @@ static esp_ble_scan_params_t ble_scan_params = {
 	.scan_filter_policy = BLE_SCAN_FILTER_ALLOW_ALL,
 	.scan_interval = 0x50,
 	.scan_window = 0x30};
-
+};
 // check if the device was already discovered
 bool alreadyDiscovered(esp_bd_addr_t address)
 {
